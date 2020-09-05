@@ -7,6 +7,7 @@ import Armas from "../../Asset/armas.png";
 import Babidas from "../../Asset/babidas.png";
 import Cinturones from "../../Asset/cinturones.png";
 import Camara from "../../Asset/camara.png";
+import Map from "../../Asset/map.png";
 import Encendedores from "../../Asset/encendedores.png";
 import Facebook from "../../Asset/facebook.svg";
 import Whatsapp from "../../Asset/whatsapp.svg";
@@ -103,7 +104,8 @@ const EvenContentLeft = () => {
       <div className="event-ubicacion">
         <h5>Ubicacion</h5>
         <div className="event-ubicacion-data">
-          <p>
+          <img src={Map} alt="Map-img" className="img-fluid rounded" />
+          <p  className=" py-4 ">
             Av, Viad. Rio de la Piedad S/n, Granjas Mexico, Iztacalco, 08400
             Iztacalco, CDMX{" "}
           </p>
