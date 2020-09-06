@@ -2,7 +2,7 @@
   "name": "evento",
   "version": "0.1.0",
   "private": true,
-  "homepage": "http://Sidra56.github.io/Event",
+  "homepage": "http://Sidra56.github.io/Evento",
   "dependencies": {
     "bootstrap": "^4.5.2",
     "cra-template": "1.0.3",
