@@ -23,17 +23,20 @@ import Weather from "../../Asset/weather.png";
 const EvenContentLeft = () => {
   return (
     <div className="event-content-left">
-      <div>
-        <h3 className="name ">Formula 1-Gran Premio de la Ciudad de Mexico</h3>
+      <div className="event-description">
+        <h3 className="event-name ">Formula 1-Gran Premio de la Ciudad de Mexico</h3>
+       <div className="event-about">
+       <a href="/" className="event-time">
+       <img src={TimeImage} alt="time-icon" />
+       15 de Septiembre - 8:30 pm
+     </a>
+     <a href="/" className="event-location">
+       <img src={LocationImage} alt="location-icon" />
+       Autodromo Hermanos Rodriguez
+     </a>
+       </div>
+       
       </div>
-      <a href="/" className="event-time">
-        <img src={TimeImage} alt="time-icon" />
-        15 de Septiembre - 8:30 pm
-      </a>
-      <a href="/" className="event-location">
-        <img src={LocationImage} alt="location-icon" />
-        Autodromo Hermanos Rodriguez
-      </a>
       <div className="event-para">
         <p className="event-para-1">
           Lorem ipsum dolor sit amet, consectetur elit, sed do eiusmod tempor
@@ -104,8 +107,8 @@ const EvenContentLeft = () => {
       <div className="event-ubicacion">
         <h5>Ubicacion</h5>
         <div className="event-ubicacion-data">
-          <img src={Map} alt="Map-img" className="img-fluid rounded" />
-          <p  className=" py-4 ">
+          <img src={Map} alt="Map-img" className="img-fluid" />
+          <p className=" py-4 ">
             Av, Viad. Rio de la Piedad S/n, Granjas Mexico, Iztacalco, 08400
             Iztacalco, CDMX{" "}
           </p>
@@ -117,7 +120,6 @@ const EvenContentLeft = () => {
       <div className="event-pagina">
         <div className="event-pagina-link py-5">
           <h5>Pagina Official</h5>
-
           <a href="https://www.formula1.com">https://www.formula1.com</a>
         </div>
         <div className="event-pagina-socialmedia ">

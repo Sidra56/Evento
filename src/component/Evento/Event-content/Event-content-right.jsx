@@ -1,12 +1,16 @@
 import React from "react";
-import LinkImage from "../../Asset/link-img.png";
+import Share from "../../Asset/share.svg";
 import { Card, ListGroup } from "react-bootstrap";
+import Ball from "../../Asset/ball.svg";
 
 const EventContentRight = () => {
   return (
     <div className="event-content-right ">
+      <a href="/" className="ball-img">
+        <img src={Ball} alt="ball-img" className="img-fluid" />
+      </a>
       <a href="/" className="link-img">
-        <img src={LinkImage} width="30" alt="link-img" className="img-fluid" />
+        <img src={Share} alt="link-img" className="img-fluid" />
         <p>Compartir</p>
       </a>
       <Card
